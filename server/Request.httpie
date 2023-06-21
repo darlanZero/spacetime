@@ -1,0 +1,1 @@
+http POST localhost:3333/register code=1173004edc2e67abb4fa --json
