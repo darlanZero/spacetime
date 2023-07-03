@@ -8,7 +8,7 @@ import {
 import { Copy2, Copyright } from '@/components/Copyright'
 import { Hero } from '@/components/Hero'
 import { SignIn } from '@/components/SignIn'
-import { Profile } from '@/components/profile'
+import { Profile } from '@/components/Profile'
 import { cookies } from 'next/headers'
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Copy2 />
           </div>
 
-          <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
+          <div className="flex max-h-screen flex-col overflow-y-scroll bg-[url(../assets/bg-stars.svg)] bg-cover">
             {children}
           </div>
         </main>
