@@ -5,7 +5,7 @@ import { cookies } from 'next/headers'
 import ptBr from 'dayjs/locale/pt-br'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowBigRight, ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 dayjs.locale(ptBr)
 
