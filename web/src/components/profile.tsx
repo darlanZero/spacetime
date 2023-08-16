@@ -1,7 +1,7 @@
 import { getUser } from '@/lib/auth'
 import Image from 'next/image'
 
-export function Profile() {
+export function profile() {
   const { name, avatarUrl } = getUser()
 
   return (
