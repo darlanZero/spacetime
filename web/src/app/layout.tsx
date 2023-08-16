@@ -8,8 +8,8 @@ import {
 import { Copy2, Copyright } from '@/components/Copyright'
 import { Hero } from '@/components/Hero'
 import { SignIn } from '@/components/SignIn'
-import { Profile } from '../components/Profile'
 import { cookies } from 'next/headers'
+import { Profile } from '@/components/profile'
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 const baiJanjuree = BaiJamjuree({
